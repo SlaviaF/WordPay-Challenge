@@ -1,0 +1,28 @@
+.paywall-phone-container{
+    width:365px;
+    height:646px;
+    border-radius:10px;
+    border:1px solid black;
+    margin-top:87px;
+    padding: 27px 29px 43px 30px;
+}
+/*
+.paywall-phone-outer-conatiner{
+    display: flex;
+}*/
+.paywall-phone-container img{
+    width:306px;
+    height:204px;
+    padding-bottom:none;
+    margin-bottom:none;
+    border:1px solid red;
+}
+
+.paywall-coloredLine-container{
+    border:1px solid red;
+}
+.paywall-btn-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

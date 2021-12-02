@@ -1,0 +1,33 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    height:8rem;
+    align-items: center;
+
+}
+
+
+.create-acc-btn{
+    background-color: black;
+    color:white;
+    width:235px;
+    height:55px;
+    border-radius:4px;
+    font-size: 20px;
+    border:none;
+    font-weight: medium;
+}
+
+.menu-container ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+    gap:80px;
+    text-decoration: none;
+    font-weight:500;
+    font-size:17px;
+}
+
+.nav-links{
+    text-decoration: none;
+}
