@@ -5,10 +5,12 @@ import Main from './components/pages/Main';
 import { BrowserRouter as Router } from "react-router-dom";
 import Tools from './components/pages/Tools';
 import Pricing from './components/pages/Pricing';
-
+import Footer from './components/pages/Footer';
 function App() {
   return (
-    <div className="container">
+    <>
+    <div className="main-container">
+    <div className="container-fluid">
       <Router>
         <Navbar />
         <Main />
@@ -16,6 +18,11 @@ function App() {
         <Pricing />
       </Router>
     </div>
+    </div>
+    <div>
+    <Footer/>
+    </div>
+    </>
   );
 }
 

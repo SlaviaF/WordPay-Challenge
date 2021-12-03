@@ -14,13 +14,10 @@
     width:306px;
     height:204px;
     padding-bottom:none;
-    margin-bottom:none;
-    border:1px solid red;
+    margin-bottom:7px;
 }
 
-.paywall-coloredLine-container{
-    border:1px solid red;
-}
+
 .paywall-btn-container{
     display:flex;
     flex-direction: column;

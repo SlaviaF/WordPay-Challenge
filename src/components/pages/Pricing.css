@@ -2,7 +2,8 @@
    display:flex;
     flex-direction: column;
     align-items:center;
-    margin-top: 119px;
+    margin: 120px 0;
+    border:2px solid lime;
 }
 
 .price-info{
@@ -20,7 +21,7 @@
     justify-content: center;
 }
 
-.table-title, .table-percent h3{
+/*.table-title, .table-percent h3{
 font-weight: 700;
 font-size: 37px;
 letter-spacing: 2%;
@@ -29,7 +30,6 @@ text-align: center;
 padding:32px 100px;
 margin-bottom: 2px;
 }
-/*removed the bottom padding from the percentage*/
 .table-percent h3 {
     padding-bottom: 0;
 }
@@ -40,7 +40,6 @@ margin-bottom: 2px;
     margin-bottom: 2px;
 
 }
-/*table title*/
 .essentials >.table-title{
  background-color: rgba(24, 144, 255, 1);
  border-radius: 10px 0 0 0;
@@ -55,7 +54,6 @@ margin-bottom: 2px;
 
    }
 
-/*table transaction-fee*/
    .essentials >.table-percent{
     background-color: rgba(24, 144, 255, 0.5);
     
@@ -78,18 +76,7 @@ small{
     color: rgba(255, 255, 255, 1);
 
 }
-/*table -content*/
-/*.essentials .price-details p{
-    background-color: rgba(220, 238, 255, 1);
-    margin-bottom: 2px;
-    padding: 37px 0;
-   }
-   */
-   /*
-   .ess{
-           background-color: rgba(220, 238, 255, 1);
-  
-   }*/
+
 
    .essentials-section p{
    
@@ -127,7 +114,7 @@ small{
        margin-bottom: 2px;
        padding: 37px 0;
     }
-
+*/
 
 /*
   .price-details{
@@ -163,7 +150,7 @@ align-items: center;
 
 .essential{
     background-color: rgba(24, 144, 255, 1)!important;
-
+    border-radius: 10px 0 0 0;
 }
 
 .advance{
@@ -173,7 +160,7 @@ align-items: center;
 
 .automate{
     background-color: rgba(116, 188, 255, 1)!important;
-
+    border-radius:0 10px 0 0;
 }
 
 .col, .col1, .row1, .row2, .row3{
@@ -181,6 +168,15 @@ height:101px!important;
 border-bottom: 2px solid white!important;
 line-height: 100%!important;
 
+}
+
+.border-bottom-radius{
+    border-radius: 0 0 10px 0!important;
+
+}
+
+.border-end-radius{
+    border-radius: 0 0 0 10px!important;
 }
 
 .col, .col1{
@@ -205,12 +201,12 @@ line-height: 100%!important;
 /*text*/
 
 .add-percent{
-    background-color: rgba(86, 174, 255, 1)!important;
+    background-color: rgba(170, 214, 255, 1)!important;
 
 }
 
 .auto-percent{
- background-color: rgba(116, 188, 255, 1)!important;
+ background-color: rgba(185, 221, 255, 1)!important;
 }
 .col1 p{
     font-weight: 600;

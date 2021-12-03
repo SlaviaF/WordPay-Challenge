@@ -4,9 +4,10 @@
   font-family: 'Poppins', sans-serif;
   }
   
-.container{
-  margin: 0 4rem;
- max-width:100vw;;
+.main-container{
+  width:100vw;
+  padding: 0 4rem;
+  border:3px solid lime;
 }
 
 

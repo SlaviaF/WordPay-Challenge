@@ -101,13 +101,13 @@ const Pricing = () => {
                 </td>
               </tr>
               <tr>
-                <td className="row1 text-center mb-1 common">
+                <td className="row1 text-center mb-1 common border-end-radius">
                   Wallet &#38; Single pabments
                 </td>
                 <td className="row2 text-center mb-1 common">
                   Advanced pricing models
                 </td>
-                <td className="row3 text-center mb-1 common">
+                <td className="row3 text-center mb-1 common border-bottom-radius">
                   Automated pricing
                 </td>
               </tr>
