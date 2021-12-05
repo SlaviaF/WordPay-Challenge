@@ -19,6 +19,7 @@
   line-height: 111%;
   letter-spacing: -2%;
   margin: 0 -11rem;
+  color: black;
 }
 
 .main-content p {
@@ -28,6 +29,7 @@
   margin-top: 45px;
   width: 566px;
   margin: 0 -8rem;
+  height: 280px;
 }
 .main-section {
   animation: fadeInAnimation ease 3s;
@@ -79,5 +81,6 @@
     margin: 0;
     width: 90%;
     padding: 0;
+    height:80px;
   }
 }

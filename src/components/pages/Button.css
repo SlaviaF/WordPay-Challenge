@@ -1,7 +1,7 @@
 .btn-size 
- {padding:13px 79px;                       
+ {padding:11px 82px;                       
 font-size: 19px;
-margin:14px
+margin-bottom:14px;
 }
 
 @media (max-width:930px){

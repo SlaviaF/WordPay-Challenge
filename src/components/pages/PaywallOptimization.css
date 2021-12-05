@@ -8,7 +8,8 @@
 .paywall-sections {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 67px;
 }
 .paywall-main-section {
   display: flex;
@@ -23,7 +24,6 @@
 .test-paywall-box {
   background-color: rgba(249, 252, 254, 1);
   width: 329px;
-  height: 207px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,33 +54,33 @@
   font-weight: 500;
 }
 .line1 {
-  width: 2px;
+  width: 1.5px;
   height: 400px;
   background-color: rgba(58, 135, 223, 1);
   z-index: 100;
   transform: rotate(130deg);
   position: absolute;
-  left: 42.7%;
-  top: 22%;
+  left: 40%;
+  top: 18%;
 }
 
 .line2 {
-  width: 2px;
-  height: 350px;
+  width: 1.5px;
+  height: 300px;
   background-color: rgba(58, 135, 223, 1);
   z-index: 100;
-  transform: rotate(112deg);
+  transform: rotate(95deg);
   position: absolute;
   left: 42.3%;
-  top: 62%;
+  top: 65%;
 }
 
 .line3 {
-  width: 2px;
+  width: 1.5px;
   height: 320px;
   background-color: rgba(58, 135, 223, 1);
   z-index: 100;
-  transform: rotate(230deg);
+  transform: rotate(250deg);
   position: absolute;
   left: 59.7%;
   top: 45%;

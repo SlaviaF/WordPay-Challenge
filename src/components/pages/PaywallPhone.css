@@ -1,44 +1,36 @@
-.paywall-phone-container{
-    width:365px;
-    min-height:646px;
-    border-radius:10px;
-    border:1px solid black;
-    margin-top:87px;
-    padding: 27px 29px 43px 30px;
-}
-/*
-.paywall-phone-outer-conatiner{
-    display: flex;
-}*/
-.paywall-phone-container img{
-    max-width:306px;
-    max-height:204px;
-    padding-bottom:none;
-    margin-bottom:7px;
+.paywall-phone-container {
+  width: 365px;
+  height: 646px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 47px;
+  padding: 27px 29px 43px 30px;
 }
 
-
-.paywall-btn-container{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.paywall-phone-container img {
+  max-width: 306px;
+  max-height: 204px;
+  padding-bottom: none;
+  margin-bottom: 7px;
 }
 
-@media (max-width:930px){
+.paywall-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .paywall-phone-container{
-        width:150px;
-        height:320px;
-        margin-top:40px;
-        padding: 5px;
-    }
-    .paywall-phone-container img{
-        max-width:137px;
-        max-height:160px;
-        margin-bottom:3px;
-        border-radius: 5px;
-    }
-    
- 
- 
+@media (max-width: 930px) {
+  .paywall-phone-container {
+    width: 150px;
+    height: 320px;
+    margin-top: 40px;
+    padding: 5px;
+  }
+  .paywall-phone-container img {
+    max-width: 137px;
+    max-height: 160px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+  }
 }

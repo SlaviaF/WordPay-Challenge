@@ -9,6 +9,7 @@ const Pricing = () => {
           <p className="price-info">
             Pay as you go for users and pay as you get paid for the media
           </p>
+          {/*Used bootstrap and CSS for the responsive table*/}
         <div className="table-responsiveness lg-w-75 sm-w-100">
           <table className="table align-middle table-borderless">
             <thead>
@@ -46,18 +47,18 @@ const Pricing = () => {
               </tr>
               <tr>
                 <td className="row1 text-center mb-1 common">
-                  Pabwall customization
+                  Paywall customization
                 </td>
                 <td className="row2 text-center mb-1 common">
-                  Pabwall optimization A/B Splittesting
+                  Paywall optimization A/B Splittesting
                 </td>
                 <td className="row3 text-center mb-1 common">
-                  Automated pabwall
+                  Automated paywall
                 </td>
               </tr>
               <tr>
                 <td className="row1 text-center mb-1 common border-end-radius">
-                  Wallet &#38; Single pabments
+                  Wallet &#38; Single payments
                 </td>
                 <td className="row2 text-center mb-1 common">
                   Advanced pricing models
@@ -68,10 +69,7 @@ const Pricing = () => {
               </tr>
             </tbody>
           </table>
-
-
           </div>
-
         </div>
       </>
     );
