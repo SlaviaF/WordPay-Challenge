@@ -5,16 +5,14 @@
   }
   
 .main-container{
-  width:100vw;
+  width:100%;
   padding: 0 4rem;
-  border:3px solid lime;
 }
 
 
 .subtitle{
   font-size: 47px;
   font-weight:800;
-  margin-top: 87px;
   color:rgba(4, 15, 36, 1);
 }
 
@@ -25,3 +23,25 @@
     letter-spacing: -2%;
   
 }
+
+.fade-enter{
+  opacity:0;
+}
+
+.fade-enter-active{
+  opacity:1;
+  transition: opacity 200ms;
+}
+
+@media (max-width:930px){
+
+  .title{
+      font-size: 25px;
+     
+  }
+  .main-container{
+    padding:0 1rem;
+  }
+  .subtitle{
+    font-size:20px;
+  }}

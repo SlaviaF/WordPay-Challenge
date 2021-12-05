@@ -2,12 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items:center;
+    width:100vw;
+
 }
 
+ 
 .advanced-pricing img{
    max-width:57em;
+   
     max-height:26em;
- border:1px solid lime;
 }
 .price-info{
     font-weight: 600;
@@ -19,4 +22,45 @@
 }
 .graph-section img{
     height:533px;
+    width: 100%;
 }
+
+.graph-section div {
+   max-width:44em;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ margin-top: 75px;
+}
+
+.graph-section p{
+    font-weight: 700;
+    font-size: 27px;
+    letter-spacing:-2%;
+    line-height: 111%;
+    text-align: center;
+    grid-column:2/3;
+
+}
+
+@media (max-width:930px){
+    .advanced-pricing img{
+        display:flex;
+        align-items: center;
+        width:100%;        
+         height:auto;
+         padding:0 40px;
+     }
+     
+.graph-section p{
+    font-size: 12px;
+
+
+}
+.graph-section div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 25px;
+ }
+ 
+    
+    }

@@ -1,0 +1,14 @@
+.btn-size 
+ {padding:13px 79px;                       
+font-size: 19px;
+margin:14px
+}
+
+@media (max-width:930px){
+.btn-size 
+ {padding:2px 10px;                       
+font-size: 12px;
+margin:3px;
+}
+
+}

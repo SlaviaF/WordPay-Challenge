@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Tools from './components/pages/Tools';
 import Pricing from './components/pages/Pricing';
 import Footer from './components/pages/Footer';
+
 function App() {
   return (
     <>

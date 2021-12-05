@@ -1,4 +1,10 @@
-.line{
+.line1{
     width:3px;
-    height: 323px;
+    height: 375px;
+    background-color: rgba(58, 135, 223, 1);
+    z-index: 100;
+    transform: rotate(130deg);
+    position:absolute;
+    left:45%;
+    top:31%;
 }

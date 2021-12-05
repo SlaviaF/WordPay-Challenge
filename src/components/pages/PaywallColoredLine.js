@@ -1,11 +1,11 @@
+import "./PaywallColoredLine.css"
 const PaywallColoredLine = ({ color, width, margin }) => (
 
-    <div
+    <div className="colored-bars-height"
         style={{
-            width:width,
+            maxWidth:width,
             backgroundColor: color,
             marginBottom:margin,
-            height: "14px", 
             border:"none"
           
         }}

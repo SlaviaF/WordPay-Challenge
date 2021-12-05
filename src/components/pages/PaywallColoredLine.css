@@ -1,0 +1,10 @@
+.colored-bars-height {
+  height: 14px;
+}
+
+@media (max-width: 930px) {
+  .colored-bars-height {
+    height: 3px;
+    width: 135px;
+  }
+}

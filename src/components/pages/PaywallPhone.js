@@ -21,8 +21,8 @@ const PaywallPhone = () => {
         <PaywallColoredLine color="rgba(189, 215, 244, 1)" width="236px"  margin="20px"/>
         </div>
        <div className="paywall-btn-container">
-        <Button radius="5px" color="white" width="277px" height="44px" fontSize="19px" fontWeight="500" letterSpacing="10%" lineHeight="20px" backgroundColor="black" margin="14px"> Buy article</Button>
-        <Button radius="5px" color="white" width="277px" height="44px" fontSize="19px" fontWeight="500" letterSpacing="10%" lineHeight="20px" backgroundColor="black" margin="14px"> Subscribe</Button>
+        <Button radius="5px" color="white" fontWeight="500" letterSpacing="10%" lineHeight="20px" backgroundColor="black"> Buy article</Button>
+        <Button radius="5px" color="white" fontWeight="500" letterSpacing="10%" lineHeight="20px" backgroundColor="black"> Subscribe</Button>
         </div>
 
         </div>
