@@ -2,7 +2,7 @@ import React from 'react'
 import "./Footer.css"
 const Footer = () => {
     return (
-      <div className="footer-container">
+      <div className="footer-container container-fluid">
         <div className="footer-contact">
           <h6>Sales | Support | Developers | Resellers &#38; partners</h6>
           <p>© WordPay 2021</p>

@@ -3,8 +3,9 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   height: 8rem;
-  width: 100;
+  width: 100%;
   padding:4rem;
+  align-items: center;
 
 }
 nav {

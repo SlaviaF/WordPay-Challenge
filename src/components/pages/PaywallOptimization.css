@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 100%;
 }
 
 .paywall-sections {
@@ -92,11 +91,12 @@
 @media (max-width: 930px) {
     .paywall-container{
         margin-top: 0;
-        margin-right: 0;
+        margin-right: 0;  
+        width: 100%;
+
     }
   .box1 {
     background-color: rgba(249, 252, 254, 1);
-    padding: 4px;
     width: 120px;
     height: 120px;
     margin-right: 4px;
@@ -111,14 +111,14 @@
     font-size: 10px;
     line-height: 12px;
   }
-
+.test-paywall-box{
+  padding:5px;
+}
   .paywall-section-2 > .test-paywall-box {
     margin-right: 0;
-
     margin-left: 4px;
     border-right: none;
     border-left: 1px solid rgba(58, 135, 223, 1);
-    padding: 4px;
     width: 120px;
     height: 120px;
   }

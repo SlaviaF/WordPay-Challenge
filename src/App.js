@@ -11,14 +11,12 @@ function App() {
   return (
     <>
     <div className="main-container">
-    <div className="container-fluid">
       <Router>
         <Navbar />
         <Main />
         <Tools />
         <Pricing />
       </Router>
-    </div>
     </div>
     <div>
     <Footer/>
