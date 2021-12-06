@@ -47,7 +47,9 @@
     height: auto;
     padding: 0 40px;
   }
-
+.advanced-pricing{
+    margin: 35px
+}
   .graph-section p {
     font-size: 12px;
   }
