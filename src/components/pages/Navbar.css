@@ -1,18 +1,22 @@
-.navbar {
+.nav-bar {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   height: 8rem;
-  width: 100%;
+  width: 100;
+  padding:4rem;
+
 }
 nav {
   position: relative;
 }
+
 li {
   font-size: 17px;
   line-height: 24px;
   font-weight: 700;
   position: relative;
+
 }
 .navbar-logo{
     display: flex;

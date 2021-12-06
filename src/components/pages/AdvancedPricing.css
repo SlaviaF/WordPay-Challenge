@@ -2,13 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .advanced-pricing img {
-  max-width: 57em;
-
-  max-height: 26em;
+  width: 57em;
+  height: 26em;
 }
 .price-info {
   font-weight: 600;
@@ -24,7 +23,7 @@
 }
 
 .graph-section div {
-  max-width: 44em;
+  max-width: 55em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 75px;
@@ -48,14 +47,14 @@
     padding: 0 40px;
   }
 .advanced-pricing{
-    margin: 35px
+    margin:35px 0;
 }
   .graph-section p {
     font-size: 12px;
   }
   .graph-section div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.8fr 2fr;
     margin-top: 25px;
   }
 }

@@ -5,14 +5,18 @@
   position: relative;
   width: 100%;
 }
+
 .paywall-sections {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 67px;
+  
 }
 .paywall-main-section {
   display: flex;
+  justify-content: center;
+  width:90%;
 }
 
 .paywall-section-2 {
@@ -88,6 +92,7 @@
 @media (max-width: 930px) {
     .paywall-container{
         margin-top: 0;
+        margin-right: 0;
     }
   .box1 {
     background-color: rgba(249, 252, 254, 1);
